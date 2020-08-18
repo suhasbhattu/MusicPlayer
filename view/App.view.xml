@@ -1,0 +1,39 @@
+<mvc:View controllerName="MusicPlayer.controller.App" xmlns="sap.m" xmlns:tnt="sap.tnt" xmlns:mvc="sap.ui.core.mvc" displayBlock="true">
+    <App>
+        <pages>
+            <Page showHeader="false">
+                <content>
+                    <tnt:ToolPage>
+                        <tnt:header>
+                            <tnt:ToolHeader>
+                                <ToolbarSpacer/>
+                                <Text text="{i18n>appTitle}"/>
+                                <ToolbarSpacer/>
+                            </tnt:ToolHeader>
+                        </tnt:header>
+                        <tnt:sideContent>
+                            <tnt:SideNavigation expanded="false" selectedKey="songs">
+                                <tnt:NavigationList>
+                                    <tnt:NavigationListItem text="{i18n>MusicPlayer.sideNavigation.songsItem.text}" icon="sap-icon://busy" key="songs"/>
+                                    <tnt:NavigationListItem text="{i18n>MusicPlayer.sideNavigation.albumsItem.text}" icon="sap-icon://sap-box" key="albums"/>
+                                    <tnt:NavigationListItem text="{i18n>MusicPlayer.sideNavigation.artistsItem.text}" icon="sap-icon://customer" key="artists"/>
+                                </tnt:NavigationList>
+                            </tnt:SideNavigation>
+                        </tnt:sideContent>
+                        <tnt:mainContents>
+                            <NavContainer id="pageContainer" initialPage="songsPage">
+                                <pages>
+                                    <ScrollContainer id="songsPage">
+                                        <mvc:XMLView viewName="MusicPlayer.view.Songs"/>
+                                    </ScrollContainer>
+                                    <ScrollContainer id="albumsPage"></ScrollContainer>
+                                    <ScrollContainer id="artistsPage"></ScrollContainer>
+                                </pages>
+                            </NavContainer>
+                        </tnt:mainContents>
+                    </tnt:ToolPage>
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>

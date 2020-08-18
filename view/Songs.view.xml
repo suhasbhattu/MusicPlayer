@@ -1,0 +1,48 @@
+<mvc:View controllerName="MusicPlayer.controller.Songs" xmlns="sap.m" xmlns:table="sap.ui.table" xmlns:mvc="sap.ui.core.mvc" displayBlock="true">
+    <table:Table id="oSongsList" selectionMode="None" rows="{myMusic>/songs}" visibleRowCount="20">
+        <table:columns>
+            <table:Column width="5%" hAlign="End">
+                <Label text="{i18n>MusicPlayer.songsTable.songNumber.text}"/>
+                <table:template>
+                    <Text text="{myMusic>trackNumber}"/>
+                </table:template>
+            </table:Column>
+            <table:Column id="oSongNameColumn" sortProperty="name" width="25%">
+                <Label text="{i18n>MusicPlayer.songsTable.songName.text}"/>
+                <table:template>
+                    <Link text="{myMusic>name}" wrapping="false"/>
+                </table:template>
+            </table:Column>
+            <table:Column width="20%">
+                <Label text="{i18n>MusicPlayer.songsTable.songAlbum.text}"/>
+                <table:template>
+                    <Text text="{myMusic>albumName}" wrapping="false"/>
+                </table:template>
+            </table:Column>
+            <table:Column width="20%">
+                <Label text="{i18n>MusicPlayer.songsTable.songComposer.text}"/>
+                <table:template>
+                    <Text text="{myMusic>composer}" wrapping="false"/>
+                </table:template>
+            </table:Column>
+            <table:Column width="20%">
+                <Label text="{i18n>MusicPlayer.songsTable.songContributongArtists.text}"/>
+                <table:template>
+                    <Text text="{myMusic>contributingArtists}" wrapping="false"/>
+                </table:template>
+            </table:Column>
+            <table:Column width="5%" hAlign="End">
+                <Label text="{i18n>MusicPlayer.songsTable.songYear.text}"/>
+                <table:template>
+                    <Text text="{myMusic>year}"/>
+                </table:template>
+            </table:Column>
+            <table:Column width="5%" hAlign="End">
+                <Label text="{i18n>MusicPlayer.songsTable.songDuration.text}"/>
+                <table:template>
+                    <Text text="{myMusic>length}"/>
+                </table:template>
+            </table:Column>
+        </table:columns>
+    </table:Table>
+</mvc:View>
