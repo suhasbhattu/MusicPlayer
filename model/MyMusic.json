@@ -33,7 +33,14 @@
             "name": "Sgt. Pepper's Lonely Hearts Club Band",
             "artist": "The Beatles",
             "year": 1967,
-            "genre": ["Rock","Pop","Psychedelia", "Art Rock"]
+            "genre": ["Rock","Pop","Psychedelia","Art Rock"]
+        },
+        {
+            "id": "ALBUM-6",
+            "name": "Revolver",
+            "artist": "The Beatles",
+            "year": 1966,
+            "genre": ["Rock","Pop","Psychedelia","Psychedelic Rock"]
         }
     ],
     "songs": [
@@ -432,6 +439,66 @@
             "albumName": "Sgt. Pepper's Lonely Hearts Club Band",
             "year": 1967,
             "length": "5:38"
+        },
+        {
+            "id": "ALBUM-6-SONG-1",
+            "albumId": "ALBUM-6",
+            "trackNumber": 2,
+            "diskNumber": 1,
+            "name": "Eleanor Rigby",
+            "composer": "The Beatles",
+            "contributingArtists": "The Beatles",
+            "albumName": "Revolver",
+            "year": 1966,
+            "length": "2:11"
+        },
+        {
+            "id": "ALBUM-6-SONG-2",
+            "albumId": "ALBUM-6",
+            "trackNumber": 4,
+            "diskNumber": 1,
+            "name": "Love You To",
+            "composer": "The Beatles",
+            "contributingArtists": "The Beatles",
+            "albumName": "Revolver",
+            "year": 1966,
+            "length": "3:00"
+        },
+        {
+            "id": "ALBUM-6-SONG-3",
+            "albumId": "ALBUM-6",
+            "trackNumber": 6,
+            "diskNumber": 1,
+            "name": "Yellow Submarine",
+            "composer": "The Beatles",
+            "contributingArtists": "The Beatles",
+            "albumName": "Revolver",
+            "year": 1966,
+            "length": "2:40"
+        },
+        {
+            "id": "ALBUM-6-SONG-4",
+            "albumId": "ALBUM-6",
+            "trackNumber": 1,
+            "diskNumber": 2,
+            "name": "Good Day Sunshine",
+            "composer": "The Beatles",
+            "contributingArtists": "The Beatles",
+            "albumName": "Revolver",
+            "year": 1966,
+            "length": "2:08"
+        },
+        {
+            "id": "ALBUM-6-SONG-5",
+            "albumId": "ALBUM-6",
+            "trackNumber": 7,
+            "diskNumber": 2,
+            "name": "Tomorrow Never Knows",
+            "composer": "The Beatles",
+            "contributingArtists": "The Beatles",
+            "albumName": "Revolver",
+            "year": 1966,
+            "length": "3:00"
         }
     ]
 }
