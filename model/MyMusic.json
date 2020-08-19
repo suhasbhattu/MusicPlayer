@@ -48,6 +48,27 @@
             "artist": "The Beatles",
             "year": 1965,
             "genre": ["Folk Rock", "Rock", "Pop"]
+        },
+        {
+            "id": "ALBUM-8",
+            "name": "Help!",
+            "artist": "The Beatles",
+            "year": 1965,
+            "genre": ["Folk Rock", "pop rock"]
+        },
+        {
+            "id": "ALBUM-9",
+            "name": "Beatles for Sale",
+            "artist": "The Beatles",
+            "year": 1965,
+            "genre": ["Rock","pop","folk","rock","rock and roll","country"]
+        },
+        {
+            "id": "ALBUM-10",
+            "name": "A Hard Day's Night",
+            "artist": "The Beatles",
+            "year": 1965,
+            "genre": ["Rock","pop rock"]
         }
     ],
     "songs": [
@@ -566,6 +587,78 @@
             "albumName": "Rubber Soul",
             "year": 1965,
             "length": "2:24"
+        },
+        {
+            "id": "ALBUM-8-SONG-1",
+            "albumId": "ALBUM-8",
+            "trackNumber": 1,
+            "diskNumber": 1,
+            "name": "Help!",
+            "composer": "The Beatles",
+            "contributingArtists": "The Beatles",
+            "albumName": "Help!",
+            "year": 1965,
+            "length": "2:18"
+        },
+        {
+            "id": "ALBUM-8-SONG-2",
+            "albumId": "ALBUM-8",
+            "trackNumber": 3,
+            "diskNumber": 1,
+            "name": "You've Got to Hide Your Love Away",
+            "composer": "The Beatles",
+            "contributingArtists": "The Beatles",
+            "albumName": "Help!",
+            "year": 1965,
+            "length": "2:09"
+        },
+        {
+            "id": "ALBUM-8-SONG-3",
+            "albumId": "ALBUM-8",
+            "trackNumber": 6,
+            "diskNumber": 1,
+            "name": "You're Going to Lose That Girl",
+            "composer": "The Beatles",
+            "contributingArtists": "The Beatles",
+            "albumName": "Help!",
+            "year": 1965,
+            "length": "2:18"
+        },
+        {
+            "id": "ALBUM-8-SONG-4",
+            "albumId": "ALBUM-8",
+            "trackNumber": 7,
+            "diskNumber": 1,
+            "name": "Ticket to Ride",
+            "composer": "The Beatles",
+            "contributingArtists": "The Beatles",
+            "albumName": "Help!",
+            "year": 1965,
+            "length": "3:09"
+        },
+        {
+            "id": "ALBUM-8-SONG-5",
+            "albumId": "ALBUM-8",
+            "trackNumber": 6,
+            "diskNumber": 2,
+            "name": "Yesterday",
+            "composer": "The Beatles",
+            "contributingArtists": "The Beatles",
+            "albumName": "Help!",
+            "year": 1965,
+            "length": "2:05"
+        },
+        {
+            "id": "ALBUM-9-SONG-1",
+            "albumId": "ALBUM-9",
+            "trackNumber": 1,
+            "diskNumber": 2,
+            "name": "Eight Days a Week",
+            "composer": "The Beatles",
+            "contributingArtists": "The Beatles",
+            "albumName": "Beatles for Sale",
+            "year": 1964,
+            "length": "2:43"
         }
     ]
 }
