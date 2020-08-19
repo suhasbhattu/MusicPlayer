@@ -41,6 +41,13 @@
             "artist": "The Beatles",
             "year": 1966,
             "genre": ["Rock","Pop","Psychedelia","Psychedelic Rock"]
+        },
+        {
+            "id": "ALBUM-7",
+            "name": "Rubber Soul",
+            "artist": "The Beatles",
+            "year": 1965,
+            "genre": ["Folk Rock", "Rock", "Pop"]
         }
     ],
     "songs": [
