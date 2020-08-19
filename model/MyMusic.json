@@ -27,6 +27,13 @@
             "artist": "The Beatles",
             "year": 1967,
             "genre": ["Psychedelia","Psychedelic Pop","Art Pop"]
+        },
+        {
+            "id": "ALBUM-5",
+            "name": "Sgt. Pepper's Lonely Hearts Club Band",
+            "artist": "The Beatles",
+            "year": 1967,
+            "genre": ["Rock","Pop","Psychedelia", "Art Rock"]
         }
     ],
     "songs": [
@@ -343,7 +350,7 @@
             "length": "3:07"
         },
         {
-            "id": "ALBUM-4-SONG-1",
+            "id": "ALBUM-4-SONG-7",
             "albumId": "ALBUM-4",
             "trackNumber": 5,
             "diskNumber": 2,
@@ -353,6 +360,78 @@
             "albumName": "Magical Mystery Tour",
             "year": 1967,
             "length": "3:57"
+        },
+        {
+            "id": "ALBUM-5-SONG-1",
+            "albumId": "ALBUM-5",
+            "trackNumber": 1,
+            "diskNumber": 1,
+            "name": "Sgt. Pepper's Lonely Hearts Club Band",
+            "composer": "The Beatles",
+            "contributingArtists": "The Beatles",
+            "albumName": "Sgt. Pepper's Lonely Hearts Club Band",
+            "year": 1967,
+            "length": "2:00"
+        },
+        {
+            "id": "ALBUM-5-SONG-2",
+            "albumId": "ALBUM-5",
+            "trackNumber": 2,
+            "diskNumber": 1,
+            "name": "With a Little Help from My Friends",
+            "composer": "The Beatles",
+            "contributingArtists": "The Beatles",
+            "albumName": "Sgt. Pepper's Lonely Hearts Club Band",
+            "year": 1967,
+            "length": "2:42"
+        },
+        {
+            "id": "ALBUM-5-SONG-3",
+            "albumId": "ALBUM-5",
+            "trackNumber": 1,
+            "diskNumber": 1,
+            "name": "Lucy in the Sky with Diamonds",
+            "composer": "The Beatles",
+            "contributingArtists": "The Beatles",
+            "albumName": "Sgt. Pepper's Lonely Hearts Club Band",
+            "year": 1967,
+            "length": "3:28"
+        },
+        {
+            "id": "ALBUM-5-SONG-4",
+            "albumId": "ALBUM-5",
+            "trackNumber": 1,
+            "diskNumber": 1,
+            "name": "Being for the Benefit of Mr. Kite!",
+            "composer": "The Beatles",
+            "contributingArtists": "The Beatles",
+            "albumName": "Sgt. Pepper's Lonely Hearts Club Band",
+            "year": 1967,
+            "length": "2:37"
+        },
+        {
+            "id": "ALBUM-5-SONG-5",
+            "albumId": "ALBUM-5",
+            "trackNumber": 1,
+            "diskNumber": 1,
+            "name": "Within You Without You",
+            "composer": "The Beatles",
+            "contributingArtists": "The Beatles",
+            "albumName": "Sgt. Pepper's Lonely Hearts Club Band",
+            "year": 1967,
+            "length": "5:05"
+        },
+        {
+            "id": "ALBUM-5-SONG-6",
+            "albumId": "ALBUM-5",
+            "trackNumber": 1,
+            "diskNumber": 1,
+            "name": "A Day in the Life",
+            "composer": "The Beatles",
+            "contributingArtists": "The Beatles",
+            "albumName": "Sgt. Pepper's Lonely Hearts Club Band",
+            "year": 1967,
+            "length": "5:38"
         }
     ]
 }
