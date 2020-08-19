@@ -506,6 +506,66 @@
             "albumName": "Revolver",
             "year": 1966,
             "length": "3:00"
+        },
+        {
+            "id": "ALBUM-7-SONG-1",
+            "albumId": "ALBUM-7",
+            "trackNumber": 2,
+            "diskNumber": 1,
+            "name": "Norwegian Wood (This Bird Has Flown)",
+            "composer": "The Beatles",
+            "contributingArtists": "The Beatles",
+            "albumName": "Rubber Soul",
+            "year": 1965,
+            "length": "2:01"
+        },
+        {
+            "id": "ALBUM-7-SONG-2",
+            "albumId": "ALBUM-7",
+            "trackNumber": 4,
+            "diskNumber": 1,
+            "name": "Nowhere Man",
+            "composer": "The Beatles",
+            "contributingArtists": "The Beatles",
+            "albumName": "Rubber Soul",
+            "year": 1965,
+            "length": "2:40"
+        },
+        {
+            "id": "ALBUM-7-SONG-3",
+            "albumId": "ALBUM-7",
+            "trackNumber": 7,
+            "diskNumber": 1,
+            "name": "Michelle",
+            "composer": "The Beatles",
+            "contributingArtists": "The Beatles",
+            "albumName": "Rubber Soul",
+            "year": 1965,
+            "length": "2:40"
+        },
+        {
+            "id": "ALBUM-7-SONG-4",
+            "albumId": "ALBUM-7",
+            "trackNumber": 2,
+            "diskNumber": 2,
+            "name": "Girl",
+            "composer": "The Beatles",
+            "contributingArtists": "The Beatles",
+            "albumName": "Rubber Soul",
+            "year": 1965,
+            "length": "2:30"
+        },
+        {
+            "id": "ALBUM-7-SONG-5",
+            "albumId": "ALBUM-7",
+            "trackNumber": 4,
+            "diskNumber": 2,
+            "name": "In My Life",
+            "composer": "The Beatles",
+            "contributingArtists": "The Beatles",
+            "albumName": "Rubber Soul",
+            "year": 1965,
+            "length": "2:24"
         }
     ]
 }
